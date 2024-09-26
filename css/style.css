@@ -1,0 +1,183 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    box-sizing: border-box;
+    border: solid 2px black;
+    background-color: black;
+
+}
+
+.grid-container{
+    display: grid;
+    margin: auto;
+    
+}
+/* header part start */
+.header-grid{    
+    display: flex;
+    display: grid;
+    margin-bottom: 25px;
+    grid-template-columns: auto-fit , 1fr;
+    margin: auto;
+    width: 965px;
+    position: relative;
+    gap: 3rem;
+    background-color: rgba(0, 0, 0, 0.268);
+
+}
+
+.button{
+    height: 30px;
+    right: 47.9rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.button:hover{
+height: 34px;
+box-shadow: 7px 7px 7px 7px rgba(241, 239, 239, 0.811);
+}
+
+.header-pic{
+    height: 300px;
+    width: 100%;
+    
+    
+}
+
+/* header part end  */ 
+
+/* main part start */
+
+.main-container{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 2rem;
+    margin: auto;
+    padding: 10px;
+    
+}
+
+.postercard  {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    background-color: rgb(190, 147, 60);
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    border-radius: 2rem;
+
+    
+}
+
+
+.poster-pic{
+    height: 300px;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* main part end  */
+
+/* aside part start */
+
+.aside-grid{
+    display: flex;
+    border: solid;
+    grid-template-columns: repeat(2 , 300px);
+    justify-content: center;
+    gap: 3rem;
+}
+
+
+.poster-bottom{
+    display: flex;
+flex-direction: column;
+background-color: rgb(190, 147, 60);
+font-family: 'Lucirgb(226, 158, 11)ns', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin-bottom: 4rem;
+border-radius: 2rem;
+
+
+}
+
+p{
+    margin:auto;
+}
+
+.bottom-pics , .bottom-pics2{
+height: 500px;
+border-radius: 10%;
+margin: 1rem
+}
+
+.bottom-text{
+    max-width: 350px;
+}
+
+
+button{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    height: 30px;
+    width: 50%;
+    background-color: crimson;
+    border-radius: 10px;
+    margin-left: 5px;
+
+}
+/* aside part end */
+
+/* footerpart start */
+.footer-icon{
+    height: 3rem;
+    width: 3rem;
+}
+
+a{
+    display: flex;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+
+address{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    
+}
+
+.bottom-nav{
+color: black;
+font-weight: bold;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 2rem;
+margin-bottom: 0.5rem;
+}
+
+footer {
+    color: black;
+    display: flex;
+    margin: auto;
+    height: 8rem;
+    background-color: gray;
+    color: white;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    border-radius: 1rem;
+}
+
+
+/* end of footer */
